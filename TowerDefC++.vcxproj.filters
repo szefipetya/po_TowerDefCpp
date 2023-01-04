@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\DLL">
+      <UniqueIdentifier>{f14205d3-399f-45a7-aa8e-538c7943d589}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\SDL">
+      <UniqueIdentifier>{40661c5e-61a1-4cfe-b1bc-e52d6891b5c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utills">
+      <UniqueIdentifier>{59ea002c-0590-4df4-925f-11efee7d4ffe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\View">
+      <UniqueIdentifier>{60163f57-d12d-454f-8d9c-9026da5d4259}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Model">
+      <UniqueIdentifier>{202f441b-25bb-484a-b68a-289f454a9fd9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\View\Graphics">
+      <UniqueIdentifier>{0e505e99-661a-40df-8020-238c41475220}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Model\Units">
+      <UniqueIdentifier>{5f4fc97b-77ad-445e-ac6e-113239dcb701}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Model\Buildings">
+      <UniqueIdentifier>{66685d90-b21d-44c2-97bc-3e787c1c4016}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Model\EventArgs">
+      <UniqueIdentifier>{26905bf8-eff8-4ccf-b09b-7b85e31a0097}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Persistence">
+      <UniqueIdentifier>{b16b1045-a56f-4e73-ab75-f4afea500628}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="TowerDefC++.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="App.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="customtimer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TowerDefFileAccess.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="shopEventArgs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Artillery.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Model.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Laser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="T:\SDL\SDL2\lib\x64\SDL2.dll">
+      <Filter>Source Files\DLL</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="App.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>Header Files\Utills</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>Header Files\View</Filter>
+    </ClInclude>
+    <ClInclude Include="PresentableObject.h">
+      <Filter>Header Files\View</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>Header Files\View</Filter>
+    </ClInclude>
+    <ClInclude Include="Container.h">
+      <Filter>Header Files\View</Filter>
+    </ClInclude>
+    <ClInclude Include="Controller.h">
+      <Filter>Header Files\View</Filter>
+    </ClInclude>
+    <ClInclude Include="Label.h">
+      <Filter>Header Files\View</Filter>
+    </ClInclude>
+    <ClInclude Include="Window.h">
+      <Filter>Header Files\View</Filter>
+    </ClInclude>
+    <ClInclude Include="Global.h">
+      <Filter>Header Files\Utills</Filter>
+    </ClInclude>
+    <ClInclude Include="customtimer.h">
+      <Filter>Header Files\Utills</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>Header Files\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Field.h">
+      <Filter>Header Files\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="TableContainer.h">
+      <Filter>Header Files\View</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadSafeMap.h">
+      <Filter>Header Files\Utills</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadSafeVector.h">
+      <Filter>Header Files\Utills</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>Header Files\View\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>Header Files\View\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Goblin.h">
+      <Filter>Header Files\Model\Units</Filter>
+    </ClInclude>
+    <ClInclude Include="Orc.h">
+      <Filter>Header Files\Model\Units</Filter>
+    </ClInclude>
+    <ClInclude Include="Unit.h">
+      <Filter>Header Files\Model\Units</Filter>
+    </ClInclude>
+    <ClInclude Include="Building.h">
+      <Filter>Header Files\Model\Buildings</Filter>
+    </ClInclude>
+    <ClInclude Include="Economic.h">
+      <Filter>Header Files\Model\Buildings</Filter>
+    </ClInclude>
+    <ClInclude Include="EventArgs.h">
+      <Filter>Header Files\Model\EventArgs</Filter>
+    </ClInclude>
+    <ClInclude Include="Ogre.h">
+      <Filter>Header Files\Model\Units</Filter>
+    </ClInclude>
+    <ClInclude Include="Skeleton.h">
+      <Filter>Header Files\Model\Units</Filter>
+    </ClInclude>
+    <ClInclude Include="TowerDefFileAccess.h">
+      <Filter>Header Files\Persistence</Filter>
+    </ClInclude>
+    <ClInclude Include="Turret.h">
+      <Filter>Header Files\Model\Buildings</Filter>
+    </ClInclude>
+    <ClInclude Include="InfoPanelContainer.h">
+      <Filter>Header Files\View</Filter>
+    </ClInclude>
+    <ClInclude Include="shopEventArgs.h">
+      <Filter>Header Files\Model\EventArgs</Filter>
+    </ClInclude>
+    <ClInclude Include="Artillery.h">
+      <Filter>Header Files\Model\Buildings</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>Header Files\View\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Laser.h">
+      <Filter>Header Files\Model\Buildings</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>Header Files\Model</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
