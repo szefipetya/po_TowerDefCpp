@@ -1,0 +1,1 @@
+A játékos sajnos nem tudtam önálló exe-ként build-elni az SDL miatt. Jelenleg csak visual studio-ból futtatható a játék.
