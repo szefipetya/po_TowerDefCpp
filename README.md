@@ -7,5 +7,9 @@ This is a tower defense game. Your task is to defend the castle from the orcs by
 - Visual studio
 - c++ toolkit for ^that
 
+## Startig the app
+* Open the .sln file in Visual Studio
+* Start the app in `x64 Debug` mode.
+
 ### Used technologies, keywords:
 > C++ | SDL2 (written in C) | multithreading | native engine from scratch
